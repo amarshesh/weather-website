@@ -1,0 +1,85 @@
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  max-width: 650px;
+  margin :  0 auto;
+  padding : 0 20px;
+   
+   display :flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+.header1{
+  flex-grow: 1;
+}
+footer {
+
+      color:  #333333;
+      border-top : 1px solid #eeeeee;
+      margin-top : 30px;
+      margin-left : 16px;
+}
+ 
+
+header {
+  
+  margin-top : 120x;
+  margin-left : 16px;
+
+}
+
+h1 {
+  color : #333333;
+  font-family :  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top :16px;
+  position: default;
+  font-size : 64px;
+
+}
+
+header a {
+
+  text-decoration: none;
+  margin-right :16px;
+  color : #333333;
+}
+
+.header1 p {
+
+
+  padding: 16px;
+  padding-left: 16px;
+}
+.mera_photu
+{
+width : 200px;
+margin-left: 16px;
+margin-top: 16px;
+
+position :default;
+}
+
+.name_image {
+  width : 200px;
+  margin-left: 16px;
+  margin-top: 16px;
+  position :default;
+
+}
+button {
+  cursor : pointer;
+  background : #888888;
+  color : hsl(0, 0%, 20%);
+  border : 1px solid #cccccc;
+  padding :8px;
+
+}
+
+input {
+  margin-left: 16px;
+  border : 1px solid #cccccc;
+  padding : 8px;
+
+
+}
