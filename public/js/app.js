@@ -1,7 +1,5 @@
 // we are going to fetch the data form the browser via fetch api 
 //  this api need not to be uploaded  since it is already built in to node
-console.log('this page will lead you to a app developre page!!')
-
  const totalinput = document.querySelector('form')
  const output = document.querySelector('input')
  const messageOne =document.querySelector('#message1')
