@@ -10,9 +10,9 @@ const weather = ( latitude , longitude , callback)=>{
         }  else if (response.body.error ){
             callback (' unable to find the location ' , undefined)
         }else {
-           callback  ( undefined ,'The temperature out there is  '+ response.body.current.temperature +' it could be a '+ response.body.current.weather_descriptions[0]+'day')
+           callback  ( undefined ,'The temperature out there is  '+ response.body.current.temperature +' it could be a '+ response.body.current.weather_descriptions[0]+'day , it feels like '+response.body.current.feelslike+' but humidity out there is '+response.body.current.humidity )
 
-        }  
+        }   
     })  
     }
 
