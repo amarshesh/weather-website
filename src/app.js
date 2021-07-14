@@ -5,6 +5,8 @@ const geocode = require ( './utils/geocode')
 const weather = require ( './utils/weather-app')
 // nicest way to approach to any directory its an inbuilt function so we need not to install it !!!
 const express = require ('express')
+//creating a port to help heroku to run the port 
+const port = process.env.PORT || 3000
 
 // creating the paths where we want to reach 
 const path_name = path.join(__dirname, '../public') ;
@@ -119,7 +121,7 @@ app.get ( '*',(req ,res )=>{
 })
 
 
-app.listen( 3000 , () =>
+app.listen(port , () =>
 {
     console.log( 'this is going to run port 3000 !!')
 } )
