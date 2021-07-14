@@ -13,7 +13,7 @@ totalinput.addEventListener('submit', (e)=>
        const location2=output.value
        messageOne.textContent='loading your request hold on a sec....'
        messageTwo.textContent= ''
-    fetch('/weather?address='+location2).then((response)=>
+    fetch( '/weather?address='+location2).then((response)=>
 
 {
     response.json().then((data)=>{
